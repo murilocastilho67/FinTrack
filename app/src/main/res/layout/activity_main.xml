@@ -227,4 +227,17 @@
         app:backgroundTint="@android:color/black"
         app:tint="@android:color/white" />
 
+    <!-- Floating Action Button for Adding Category -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="@android:color/white" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

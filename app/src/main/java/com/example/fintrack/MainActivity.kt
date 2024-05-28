@@ -15,5 +15,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AddExpenseActivity::class.java)
             startActivity(intent)
         }
+
+        val fabAddCategory = findViewById<FloatingActionButton>(R.id.fab_add_category)
+        fabAddCategory.setOnClickListener {
+            val intent = Intent(this, AddCategoryActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
