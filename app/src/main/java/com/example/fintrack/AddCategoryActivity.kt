@@ -18,3 +18,4 @@ class AddCategoryActivity : AppCompatActivity() {
         }
     }
 }
+teste
