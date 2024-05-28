@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FinTrack</string>
+    <string-array name="category_array">
+        <item>Wi-fi</item>
+        <item>Electricity bill</item>
+        <item>Gas station</item>
+        <item>Water bill</item>
+        <item>Rent</item>
+    </string-array>
 </resources>
+
